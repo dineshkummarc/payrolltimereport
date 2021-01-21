@@ -161,12 +161,13 @@ if(!empty($thursday_1)){
 }
 if(!empty($friday_1)){
 	day_five($conn, $day_5);
-/*
-if(!empty($monday_2)){
+}
+if(!empty($saturday_1)){
 	day_six($conn, $day_6);
 }
-if(!empty($tuesday_2)){
+if(!empty($sunday_1)){
 	day_seven($conn, $day_7);
+/*
 }
 if(!empty($wednesday_2)){
 	day_eight($conn, $day_8);
