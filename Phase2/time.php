@@ -55,6 +55,25 @@ $array = array(
 	'vacHrs_5' => check_input($_POST[('vacHrs_5')]),
 	'sickHrs_5' => check_input($_POST[('sickHrs_5')])
 	),
+	$saturday_1 = array(	
+	'name' => check_input($_POST[('name')]),
+	'beginDate' => check_input($_POST[('beginDate')]),
+	'endDate' => check_input($_POST[('endDate')]),
+	'date_6' => check_input($_POST[('date_6')]),
+	'wrkHrs_6' => check_input($_POST[('wrkHrs_6')]),
+	'vacHrs_6' => check_input($_POST[('vacHrs_6')]),
+	'sickHrs_6' => check_input($_POST[('sickHrs_6')])
+	),
+	$sunday_1 = array(
+	'name' => check_input($_POST[('name')]),
+	'beginDate' => check_input($_POST[('beginDate')]),
+	'endDate' => check_input($_POST[('endDate')]),
+	'date_7' => check_input($_POST[('date_7')]),
+	'wrkHrs_7' => check_input($_POST[('wrkHrs_7')]),
+	'vacHrs_7' => check_input($_POST[('vacHrs_7')]),
+	'sickHrs_7' => check_input($_POST[('sickHrs_7')])
+	)
+/*	
 	$monday_2 = array(	
 	'name' => check_input($_POST[('name')]),
 	'beginDate' => check_input($_POST[('beginDate')]),
@@ -100,7 +119,8 @@ $array = array(
 	'vacHrs_10' => check_input($_POST[('vacHrs_10')]),
 	'sickHrs_10' => check_input($_POST[('sickHrs_10')])
 	)
-
+*/
+	
 );
 
 /**
@@ -140,6 +160,7 @@ if(!empty($thursday_1)){
 if(!empty($friday_1)){
 	day_five($conn, $day_5);
 }
+/*
 if(!empty($monday_2)){
 	day_six($conn, $day_6);
 }
@@ -154,5 +175,6 @@ if(!empty($thursday_2)){
 }
 if(!empty($friday_2)){
 	day_ten($conn, $day_10);
+	*/
 }
 ?>	
