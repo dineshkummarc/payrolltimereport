@@ -4,7 +4,7 @@
 function day_one($conn, $day_1){
 	
 	$query = mysqli_query($conn, "INSERT INTO `timesheet` (
-		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`)
+		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`,  `holiday`)
 			VALUES ('$day_1')", MYSQLI_STORE_RESULT);
 	if(!$query){
 		echo "Could not complete INSERT because: " . mysqli_error($conn) . "<br />" ;
@@ -16,7 +16,7 @@ function day_one($conn, $day_1){
 function day_two($conn, $day_2){
 	
 	$query = mysqli_query($conn, "INSERT INTO `timesheet` (
-		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`)
+		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`,  `holiday`)
 			VALUES ('$day_2')", MYSQLI_STORE_RESULT);
 	if(!$query){
 		echo "Could not complete INSERT because: " . mysqli_error($conn) ;
@@ -27,7 +27,7 @@ function day_two($conn, $day_2){
 function day_three($conn, $day_3){
 	
 	$query = mysqli_query($conn, "INSERT INTO `timesheet` (
-		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`)
+		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`,  `holiday`)
 			VALUES ('$day_3')", MYSQLI_STORE_RESULT);
 	if(!$query){
 		echo "Could not complete INSERT because: " . mysqli_error($conn) ;
@@ -38,7 +38,7 @@ function day_three($conn, $day_3){
 function day_four($conn, $day_4){
 	
 	$query = mysqli_query($conn, "INSERT INTO `timesheet` (
-		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`)
+		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`,  `holiday`)
 			VALUES ('$day_4')", MYSQLI_STORE_RESULT);
 	if(!$query){
 		echo "Could not complete INSERT because: " . mysqli_error($conn) ;
@@ -50,7 +50,7 @@ function day_four($conn, $day_4){
 function day_five($conn, $day_5){
 	
 	$query = mysqli_query($conn, "INSERT INTO `timesheet` (
-		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`)
+		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`,  `holiday`)
 			VALUES ('$day_5')", MYSQLI_STORE_RESULT);
 	if(!$query){
 		echo "Could not complete INSERT because: " . mysqli_error($conn) ;
@@ -61,7 +61,7 @@ function day_five($conn, $day_5){
 function day_six($conn, $day_6){
 	
 	$query = mysqli_query($conn, "INSERT INTO `timesheet` (
-		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`)
+		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`,  `holiday`)
 			VALUES ('$day_6')", MYSQLI_STORE_RESULT);
 	if(!$query){
 		echo "Could not complete INSERT because: " . mysqli_error($conn) ;
@@ -72,7 +72,7 @@ function day_six($conn, $day_6){
 function day_seven($conn, $day_7){
 	
 	$query = mysqli_query($conn, "INSERT INTO `timesheet` (
-		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`)
+		`name`, `beginDate`, `endDate`, `curDate`, `wrkHrs`, `vacHrs`, `sickHrs`,  `holiday`)
 			VALUES ('$day_7')", MYSQLI_STORE_RESULT);
 	if(!$query){
 		echo "Could not complete INSERT because: " . mysqli_error($conn) ;
@@ -80,6 +80,7 @@ function day_seven($conn, $day_7){
 	
 }
 
+/*
 function day_eight($conn, $day_8){
 	
 	$query = mysqli_query($conn, "INSERT INTO `timesheet` (
@@ -155,5 +156,5 @@ function day_fourteen($conn, $day_14){
 		echo "Could not complete INSERT because: " . mysqli_error($conn) ;
 	}
 	
-}
+} */
 ?>
