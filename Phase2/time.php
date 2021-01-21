@@ -17,7 +17,8 @@ $array = array(
 	'date_1' => check_input($_POST[('date_1')]),
 	'wkrHrs_1' => check_input($_POST[('wrkHrs_1')]),
 	'vacHrs_' => check_input($_POST[('vacHrs_1')]),
-	'sickHrs_1' => check_input($_POST[('sickHrs_1')])
+	'sickHrs_1' => check_input($_POST[('sickHrs_1')]),
+	'holiday_1' => check_input($_POST[('holiday_1')])
 	),
 	$tuesday_1 = array(
 	'name' => check_input($_POST[('name')]),
@@ -26,7 +27,8 @@ $array = array(
 	'date_2' => check_input($_POST[('date_2')]),
 	'wrkHrs_2' => check_input($_POST[('wrkHrs_2')]),
 	'vacHrs_2' => check_input($_POST[('vacHrs_2')]),
-	'sickHrs_2' => check_input($_POST[('sickHrs_2')])
+	'sickHrs_2' => check_input($_POST[('sickHrs_2')]),
+	'holiday_2' => check_input($_POST[('holiday_2')])
 	),
 	$wednesday_1 = array(
 	'name' => check_input($_POST[('name')]),
@@ -35,7 +37,8 @@ $array = array(
 	'date_3' => check_input($_POST[('date_3')]),
 	'wrkHrs_3' => check_input($_POST[('wrkHrs_3')]),
 	'vacHrs_3' => check_input($_POST[('vacHrs_3')]),
-	'sickHrs_3' => check_input($_POST[('sickHrs_3')])
+	'sickHrs_3' => check_input($_POST[('sickHrs_3')]),
+	'holiday_3' => check_input($_POST[('holiday_3')])
 	),
 	$thursday_1 = array(
 	'name' => check_input($_POST[('name')]),
@@ -44,7 +47,8 @@ $array = array(
 	'date_4' => check_input($_POST[('date_4')]),
 	'wrkHrs_4' => check_input($_POST[('wrkHrs_4')]),
 	'vacHrs_4' => check_input($_POST[('vacHrs_4')]),
-	'sickHrs_4' => check_input($_POST[('sickHrs_4')])
+	'sickHrs_4' => check_input($_POST[('sickHrs_4')]),
+	'holiday_4' => check_input($_POST[('holiday_4')])
 	),
 	$friday_1 = array(	
 	'name' => check_input($_POST[('name')]),
@@ -53,7 +57,8 @@ $array = array(
 	'date_5' => check_input($_POST[('date_5')]),
 	'wrkHrs_5' => check_input($_POST[('wrkHrs_5')]),
 	'vacHrs_5' => check_input($_POST[('vacHrs_5')]),
-	'sickHrs_5' => check_input($_POST[('sickHrs_5')])
+	'sickHrs_5' => check_input($_POST[('sickHrs_5')]),
+	'holiday_5' => check_input($_POST[('holiday_5')])
 	),
 	$saturday_1 = array(	
 	'name' => check_input($_POST[('name')]),
@@ -62,7 +67,8 @@ $array = array(
 	'date_6' => check_input($_POST[('date_6')]),
 	'wrkHrs_6' => check_input($_POST[('wrkHrs_6')]),
 	'vacHrs_6' => check_input($_POST[('vacHrs_6')]),
-	'sickHrs_6' => check_input($_POST[('sickHrs_6')])
+	'sickHrs_6' => check_input($_POST[('sickHrs_6')]),
+	'holiday_6' => check_input($_POST[('holiday_6')])
 	),
 	$sunday_1 = array(
 	'name' => check_input($_POST[('name')]),
@@ -71,7 +77,8 @@ $array = array(
 	'date_7' => check_input($_POST[('date_7')]),
 	'wrkHrs_7' => check_input($_POST[('wrkHrs_7')]),
 	'vacHrs_7' => check_input($_POST[('vacHrs_7')]),
-	'sickHrs_7' => check_input($_POST[('sickHrs_7')])
+	'sickHrs_7' => check_input($_POST[('sickHrs_7')]),
+	'holiday_7' => check_input($_POST[('holiday_7')])
 	)
 /*	
 	$monday_2 = array(	
