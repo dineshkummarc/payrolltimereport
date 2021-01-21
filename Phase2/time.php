@@ -134,11 +134,13 @@ $day_2 = implode("', '", $tuesday_1);
 $day_3 = implode("', '", $wednesday_1);
 $day_4 = implode("', '", $thursday_1);
 $day_5 = implode("', '", $friday_1);
-$day_6 = implode("', '", $monday_2);
-$day_7 = implode("', '", $tuesday_2);
+$day_6 = implode("', '", $saturday_1);
+$day_7 = implode("', '", $sunday_1);
+/*
 $day_8 = implode("', '", $wednesday_2);
 $day_9 = implode("', '", $thursday_2);
 $day_10 = implode("', '", $friday_2);
+*/
 
 /**
  * Then, we create an if statement for each day. If a
@@ -159,7 +161,6 @@ if(!empty($thursday_1)){
 }
 if(!empty($friday_1)){
 	day_five($conn, $day_5);
-}
 /*
 if(!empty($monday_2)){
 	day_six($conn, $day_6);
